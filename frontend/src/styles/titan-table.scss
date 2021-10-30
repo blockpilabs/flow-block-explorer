@@ -1,0 +1,42 @@
+.titan-table {
+  .el-table {
+    font-family: Hind;
+    background: #ffffff;
+    th {
+      background: #ffffff;
+      color: #333333;
+      border-color: #d8dfde;
+    }
+    tr {
+      background: #ffffff;
+      &.custom-header {
+        th {
+          border-top: 1px solid #d8dfde;
+          background: #f8f8f8;
+        }
+      }
+      &.custom-header-first {
+        th {
+          border-top: 1px solid #d8dfde;
+          background: #def4f1;
+        }
+      }
+      &.custom-header-second {
+        th {
+          border-top: 1px solid #d8dfde;
+          background: #fbf7e9;
+        }
+      }
+      &.custom-header-third {
+        th {
+          border-top: 1px solid #d8dfde;
+          background: #dbedf9;
+        }
+      }
+    }
+    td {
+      border-color: #d8dfde;
+      color: #333333;
+    }
+  }
+}
