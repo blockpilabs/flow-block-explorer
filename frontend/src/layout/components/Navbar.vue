@@ -61,8 +61,12 @@ export default {
   data() {
     return {
       searchParam: '',
-      network: 'mainnet',
-      networks: [{ label: 'Mainnet', value: 'mainnet' }]
+      network: 'emulator',
+      networks: [
+        { label: 'Emulator', value: 'emulator' },
+        { label: 'Mainnet', value: 'mainnet' },
+        { label: 'Testnet', value: 'testnet' }
+      ]
     };
   },
   computed: {
